@@ -1,0 +1,115 @@
+body{
+    background-color: #0c1014;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 62px;
+    margin: 46px 0;
+}
+
+.header{
+    display: flex;
+    background-color: #05080a;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+.header__logo{
+    margin-left: 16px;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.header__nav__menu{
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+}
+
+.header__nav__menu a{
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+.header__nav__menu a:hover{
+    text-decoration: underline;
+}
+
+a.header__nav__menu--active{
+    background-color: #cbe300;
+    color: black;
+    pointer-events: none;
+}
+
+.pricing{
+    display: flex;
+    gap: 16px;
+}
+
+.pricing-plan{
+    flex: 1;
+    background-color: #1f262c;
+    padding: 24px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px -6px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-plan__title{
+    margin-top: 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.pricing-plan p{
+    margin-top: 0;
+}
+
+.pricing-plan__price{
+    font-size: 33px;
+}
+
+.pricing-plan__features{
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex: 1;
+}
+
+.pricing-plan__features li::marker{
+    color: #cbe300;
+}
+
+.pricing-plan__cta{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: #cbe300;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+}
+
+.pricing-plan__cta:hover{
+    outline: 2px solid #cbe300;
+    background-color: transparent;
+    color: white;
+}
